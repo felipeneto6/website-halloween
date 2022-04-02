@@ -12,6 +12,10 @@ document.querySelector('#menu-btn').onclick = () =>{
     searchForm.classList.remove('active');
 }
 
+//scroll  spy
+let section = document.querySelectorAll('section');
+let navLinks = document.querySelectorAll('.header .navbar a');
+
 window.onscroll = () =>{
     searchForm.classList.remove('active');
     navbar.classList.remove('active');
@@ -21,6 +25,22 @@ window.onscroll = () =>{
     }else{
         document.querySelector('.header').classList.remove('active');
     }
+
+    section.forEach(sec =>{
+      let top = window.scrollY;
+      let offset = sec.offsetTop - 200;
+      let heigth = sec.offsetHeight;
+      let id = sec.getAttribute('id');
+
+      if(top >= offset && top < offset + heigth){
+        navLinks.forEach(link =>{
+          link.classList.remove('active');
+          document.querySelector('.header .navbar a[href*='+id+']').classList.add('active');
+        });
+      };
+
+
+    });
 
 }
 

@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website Halloween</title>
 
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <!-- font awesome cdn link-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -90,7 +91,7 @@
 
         <h1 class="heading"> our <span>products</span></h1>
 
-        <div class="swiper products-slider">
+        <div class="swiper products-slider" data-aos="zoom-in">
 
             <div class="swiper-wrapper">
 
@@ -181,7 +182,7 @@
     <!--about section start-->
     <section class="about" id="about">
 
-        <div class="content">
+        <div class="content" data-aos="fade-right">
             <h3>about us</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus at quam possimus non.
                 Consequuntur fugit atque praesentium voluptatem expedita fuga, nesciunt officia quibusdam dignissimos aut, 
@@ -199,7 +200,7 @@
 
         <div class="box-container">
 
-            <div class="box">
+            <div class="box" data-aos="fade-right">
                 <div class="icon">
                     <a href="#" class="fas fa-shopping-cart"></a>
                     <a href="#" class="fas fa-eye"></a>
@@ -214,7 +215,7 @@
                 </div>
             </div>
 
-            <div class="box">
+            <div class="box" data-aos="fade-down">
                 <div class="icon">
                     <a href="#" class="fas fa-shopping-cart"></a>
                     <a href="#" class="fas fa-eye"></a>
@@ -229,7 +230,7 @@
                 </div>
             </div>
 
-            <div class="box">
+            <div class="box" data-aos="fade-left">
                 <div class="icon">
                     <a href="#" class="fas fa-shopping-cart"></a>
                     <a href="#" class="fas fa-eye"></a>
@@ -244,7 +245,7 @@
                 </div>
             </div>
 
-            <div class="box">
+            <div class="box" data-aos="fade-right">
                 <div class="icon">
                     <a href="#" class="fas fa-shopping-cart"></a>
                     <a href="#" class="fas fa-eye"></a>
@@ -259,7 +260,7 @@
                 </div>
             </div>
 
-            <div class="box">
+            <div class="box" data-aos="fade-down">
                 <div class="icon">
                     <a href="#" class="fas fa-shopping-cart"></a>
                     <a href="#" class="fas fa-eye"></a>
@@ -274,7 +275,7 @@
                 </div>
             </div>
 
-            <div class="box">
+            <div class="box" data-aos="fade-left">
                 <div class="icon">
                     <a href="#" class="fas fa-shopping-cart"></a>
                     <a href="#" class="fas fa-eye"></a>
@@ -307,12 +308,12 @@
             R%2C%2081810-330!5e0!3m2!1spt-BR!2sbr!4v1648868391211!5m2!1spt-BR!2sbr"  allowfullscreen="" loading="lazy"></iframe>
 
             <form action="">
-                <h3>tell us something!</h3>
-                <input type="text" placeholder="your name" class="box">
-                <input type="email" placeholder="your email" class="box">
-                <input type="number" placeholder="your number" class="box">
-                <textarea placeholder="your message" class="box" cols="30" rows="10"></textarea>
-                <input type="submit" value="send message" class="btn">
+                <h3 data-aos="zoom-in">tell us something!</h3>
+                <input data-aos="zoom-in" type="text" placeholder="your name" class="box">
+                <input data-aos="zoom-in" type="email" placeholder="your email" class="box">
+                <input data-aos="zoom-in" type="number" placeholder="your number" class="box">
+                <textarea data-aos="zoom-in" placeholder="your message" class="box" cols="30" rows="10"></textarea>
+                <input data-aos="zoom-in" type="submit" value="send message" class="btn">
             </form>
 
         </div>
@@ -327,7 +328,7 @@
         
         <div class="box-container">
 
-            <div class="box">
+            <div class="box" data-aos="fade-right">
                 <div class="image">
                     <img src="./img/blog-1.jpg" alt="">
                 </div>
@@ -342,7 +343,7 @@
                 </div>
             </div>
 
-            <div class="box">
+            <div class="box" data-aos="fade-down">
                 <div class="image">
                     <img src="./img/blog-2.jpg" alt="">
                 </div>
@@ -357,7 +358,7 @@
                 </div>
             </div>
 
-            <div class="box">
+            <div class="box" data-aos="fade-left">
                 <div class="image">
                     <img src="./img/blog-3.jpg" alt="">
                 </div>
@@ -377,10 +378,66 @@
     </section>
     <!--blogs section end-->
 
+    <!--footer section start-->
+    <section class="footer" id="footer">
+
+        <div class="box-container">
+
+            <div class="box" data-aos="fade-right">
+                <h3>our branches</h3>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>India</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>USA</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Russia</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>France</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Japan</a>
+            </div>
+
+            <div class="box" data-aos="fade-down">
+                <h3>quick links</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i>Home</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Products</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>About</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Arrivals</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Contact</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Blogs</a>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <h3>contact us</h3>
+                <a href="#"><i class="fas fa-phone"></i> +91234-5678</a>
+                <a href="#"><i class="fas fa-phone"></i> +91234-5678</a>
+                <a href="#"><i class="fas fa-envelope"></i> email@email.com</a>
+                <a href="#"><i class="fas fa-map-marked-alt"></i> Curitiba, Paraná, Brasil</a>
+            </div>
+
+            <div class="box" data-aos="fade-left">
+                <h3>contact us</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i> facebook</a>
+                <a href="#"><i class="fab fa-twitter"></i> twitter</a>
+                <a href="#"><i class="fab fa-instagram"></i> instagram</a>
+                <a href="#"><i class="fab fa-linkedin"></i> linkedin</a>
+                <a href="#"><i class="fab fa-github"></i> github</a>
+            </div>
+
+        </div>
+
+        <div class="credit"> created by <span>Felipe Neto</span> | all rigths reserved</div>
+
+    </section>
+    <!--footer section end-->
+
 
 
 
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="./index.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          delay:400,
+          duration:800
+      });
+    </script>
 </body>
 </html>
